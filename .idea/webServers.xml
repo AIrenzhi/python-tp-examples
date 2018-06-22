@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ssh://pydev@192.168.33.129:22/usr/bin/python3" name="ssh://pydev@192.168.33.129:22/usr/bin/python3">
+        <fileTransfer host="192.168.33.129" port="22" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="45e485d7-6b7b-49b3-83ee-e0ef201df7b7" name="test2" url="http://192.168.33.130">
+        <fileTransfer host="192.168.33.130" port="22" rootFolder="/home/pydev/Desktop" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
